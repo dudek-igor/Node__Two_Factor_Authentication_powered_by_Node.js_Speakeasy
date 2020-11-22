@@ -1,0 +1,28 @@
+{
+  "name": "two_factor_authentication_powered_by_node.js_speakeasy",
+  "version": "1.0.0",
+  "description": "Implementing a time-based one-time password(TOTP) using the Speakeasy library.",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dudek-igor/Node__Two_Factor_Authentication_powered_by_Node.js_Speakeasy.git"
+  },
+  "author": "Igor Dudek",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dudek-igor/Node__Two_Factor_Authentication_powered_by_Node.js_Speakeasy/issues"
+  },
+  "homepage": "https://github.com/dudek-igor/Node__Two_Factor_Authentication_powered_by_Node.js_Speakeasy#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "node-json-db": "^1.1.0",
+    "speakeasy": "^2.0.0",
+    "uuid": "^8.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
